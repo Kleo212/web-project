@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menuja -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education & Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- edit per home -->
+    <section id="home">
+        <h1>Welcome to My Personal Portfolio</h1>
+        <p>Discover my work, skills, and experiences as a developer.</p>
+    </section>
+
+    <!-- editi per About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm a passionate web and mobile developer with a strong foundation in computer science. I enjoy creating user-friendly websites and applications using modern technologies like HTML, CSS, and JavaScript. I'm always looking to learn new skills and work on exciting projects that challenge me. Below are my professional links:</p>
+        <ul>
+            <li><a href="https://linkedin.com">LinkedIn</a></li>
+            <li><a href="https://github.com">GitHub</a></li>
+            <li><a href="My CV.docx" download>Download My CV</a></li>
+        </ul>
+    </section>
+
+    <!-- Projektet  -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Projekt 1 -->
+            <div class="project-card">
+                <img src="Projektt1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A simple search bar with HTML and CSS .</p>
+            </div>
+            <!-- Projekt 2 -->
+            <div class="project-card">
+                <img src="Projektt2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A Company Payment Method.</p>
+            </div>
+            <!-- Projekt 3 -->
+            <div class="project-card">
+                <img src="projektt3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A simple log in form with HTML and CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  Education dhe Experience -->
+    <section id="education">
+        <h2>Education & Experience</h2>
+        <p>I have a background in Computer Science and have completed internships in software development.</p>
+        <ul>
+            <li>Bachelor's Degree in Computer Science</li>
+            <li>Internship at XYZ Company - Software Development</li>
+        </ul>
+    </section>
+
+    <!-- Editi per Contact -->
+    <h1>Contact Me</h1>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+
+    
+    
+             
+             <!--Blogu-->
+            <section id="blog">
+                <h2>Blog</h2>
+                <div class="blog-grid">
+                    <!-- Blog 1 -->
+                    <div class="blog-card">
+                        <img src="Projektt4.jpg" alt="Inteligjenca Artificiale">
+                        <h3><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" 
+                               style="text-decoration: none; color: inherit;">Si Funksionon Inteligjenca Artificiale?</a></h3>
+                        <p>Një prezantim i thjeshtë për mënyrën se si inteligjenca artificiale ndihmon në zgjidhjen e problemeve komplekse...</p>
+                        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">Lexo më shumë</a>
+                    </div>
+                    <!-- Blog 2 -->
+                    <div class="blog-card">
+                        <img src="Projektt5.jpg" alt="Zhvillimi i Web-it">
+                        <h3><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" 
+                               style="text-decoration: none; color: inherit;">Zhvillimi i Web-it Modern</a></h3>
+                        <p>Një udhëzues i shkurtër për teknologjitë kryesore që përdoren sot në zhvillimin e web-it...</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Lexo më shumë</a>
+                    </div>
+                </div>
+            </section>
+            
+    
+
+    <!-- Footer informacioni fundor i faqes -->
+    <footer>
+        <p>© 2024 My Personal Portfolio. All Rights Reserved.</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</body>
+</html>
